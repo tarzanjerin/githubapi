@@ -99,7 +99,7 @@ def sendEmail(jsnResp):
 
     htmlBody += "</table>"
     
-    print("to: rm@bnp.com")
+    print("to: rm@test.com")
 
     print("subject: PR list data")
 
