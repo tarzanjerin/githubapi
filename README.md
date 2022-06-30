@@ -11,7 +11,7 @@ It uses below tools & Technologies :
 - [Docker] - Create Docker Images 
 
 ## Prerequisite
-- Generate API token in your user account which would be used to retrive the object 
+- Generate API token in your user account which would be used to retrieve the object 
 ## Installation
 GitHubApi requires Python run time environment and Docker Cli .
 
