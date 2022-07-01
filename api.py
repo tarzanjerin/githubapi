@@ -52,8 +52,10 @@ def sendEmail(jsnResp):
         htmlBody += "<tr><td>"+ prData["title"]+ "</td><td>" + prData["state"] + "</td><td>"
         htmlBody += prData["projectName"]+ "</td><td>" + prData["repoName"] + "</td><td>"
         htmlBody += prData["authorName"]+ "</td><td>" + str(prData["reviewerName"]) + "</td><td>" + prData["prLink"]+ "</td></tr>"
-    
-    htmlBody += "</table>"
+     
+    htmlBody += "</table> <br>"
+    htmlBody += "<b> Regards, </b> <br>"
+    htmlBody += "<p> DevOps Team </p>"
     print(htmlBody)
     
     
