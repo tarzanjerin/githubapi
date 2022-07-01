@@ -31,10 +31,10 @@ python api.py --token "yourApi Token" --projectName "npm" --repoName "npm-expans
 
 To create Docker Image 
 ``` sh
-docker build -t api . 
+docker build -t api:1.0.0 . 
 ```
 
 To run Docker Image
 ``` sh
-docker run --rm --name api api:latest --token="" --projectName="npm" --repoName="npm-expansions"
+docker run --rm --name api api:1.0.0 --token="" --projectName="npm" --repoName="npm-expansions"
 ```
