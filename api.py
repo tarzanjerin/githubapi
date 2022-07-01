@@ -54,8 +54,6 @@ def sendEmail(jsnResp):
         htmlBody += prData["authorName"]+ "</td><td>" + str(prData["reviewerName"]) + "</td><td>" + prData["prLink"]+ "</td></tr>"
     
     htmlBody += "</table>"
-    #print("to: rm@test.com\n")
-  #  print("subject: PR list data\n")
     print(htmlBody)
     
     
